@@ -1,6 +1,12 @@
 // src/Adapters/napcat/types.ts
 // (C)2026, CoraTech Workspace. All rights reserved. See LICENSE for details.
 
+export interface NapCatConfig {
+    host: string,
+    port: number,
+}
+
+
 export interface Message {
     self_id: number,
     user_id: number,

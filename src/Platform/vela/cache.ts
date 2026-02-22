@@ -1,6 +1,6 @@
 // src/Platform/vela/cache.ts
 // (C)2026, CoraTech Workspace. All rights reserved. See LICENSE for details.
-
+// @ts-ignore
 import storageFile from './utils/storage' // 根据实际路径调整
 
 interface StorageCallback {
